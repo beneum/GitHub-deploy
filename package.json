@@ -21,7 +21,7 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://beneum.github.io/portfolio-website-build/",
+  "homepage": "https://beneum.github.io/portfolio-website-test/",
   "eslintConfig": {
     "extends": [
       "react-app",
