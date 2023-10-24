@@ -16,7 +16,7 @@ function Card ({proj}) {
     return (
         <div className={`${styles.projects_item}`}>
             <a href={proj.demo} target='_blank'>
-                <CardFront className={`${styles.project_front}`} imgsrc={`${process.env.PUBLIC_URL}${proj.image}`}>
+                <CardFront className={`${styles.project_front}`} imgsrc={`${process.env.PUBLIC_URL}/${proj.image}`}>
                     <div className={`${styles.info}`}>
                         <h3 className={`${styles.title}`}>{proj.title}</h3>
                         <p className={`${styles.click_msg}`}>click</p>
