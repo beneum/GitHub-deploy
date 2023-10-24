@@ -1,0 +1,196 @@
+
+  
+  
+  .projects{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    color:darkslategray;
+    margin-top: 80px;
+    
+  }
+  .projects h2{
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .about_project{
+    
+    padding-left: 0;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+    
+  }
+
+  .about_project > div{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    align-items: baseline;
+    justify-content: center;
+    width: 370px;
+  }
+
+
+
+  .about_project_detail{
+    font-size: 16px;
+    font-weight: normal;
+    margin: 10px;
+  }
+
+  .intro_detail{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslategray; 
+    text-align: center;
+  }
+
+  .blog{
+    font-family: 'Noto Sans', sans-serif;
+    color: darkslategray; 
+    font-size: 25px;
+  }
+  /* .projects-grid */
+  .projects_grid {  
+    margin: 0 auto;
+    padding: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-items: center;
+    width: 100%;
+    box-sizing: border-box;
+
+  }
+  .card_wrapper{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin: 0 auto;
+    padding: 40px;
+    padding-bottom: 70px;
+    justify-items: center;    
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .project_title{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+  }
+
+  .projects_container{
+    width: 80%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin: 0 auto;
+  }
+
+  .project_wrapper{
+    border: 1px solid slategray;
+    border-radius: 10px;
+    padding: 30px;
+    padding-bottom: 0;
+    margin-bottom: 50px;
+  }
+
+  .proj_detail{
+    font-size: 16px;
+    color: darkslategray;
+    width: 100%;
+  }
+  
+ 
+  .card_container {
+    display: flex;
+    width: 100%;
+    height: 380px;
+    background-color: #fff;    
+  }
+  
+  .projects_item {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.18);
+    cursor: pointer;    
+  }
+  
+  .projects_item .project_front{
+    position: absolute;
+    width: 100%;
+    height: 100%;    
+  }
+  
+  .projects_item .project_front {
+    .info {
+      display: none;
+    }
+  
+    &:hover {
+      display: flex;    
+      justify-content: center;
+      align-items: center;
+  
+      &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.45);
+      }
+  
+      .info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #fff; 
+        width: 70%;
+        height: 70%;
+        z-index: 1;
+  
+        .title {
+          color: #fff;
+          font-size: 18px;
+        }
+  
+        .click_msg {
+          padding-top: 10px;
+          font-size: 16px;
+          color: #caf7e3;
+        }
+      }
+    }
+  }
+
+
+  @media (max-width: 1140px) {
+    .card_wrapper{
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 40px;
+      margin: 0 auto;
+      padding: 40px;
+      padding-bottom: 70px;
+      justify-items: center;    
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .about_project > div{
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      align-items: baseline;
+      justify-content: center;
+      width: 370px;
+    }
+  }
+
+  
